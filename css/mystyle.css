@@ -1,0 +1,43 @@
+
+nav , header , #about , footer{
+    background-image: linear-gradient(to right,  #3cd178, #326a6c);
+}
+
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#downarrow {
+    position: absolute;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0 auto;
+    bottom: 5px;
+    -webkit-animation: myanimation 2s infinite;
+    animation: myanimation 2s infinite;
+}
+
+@keyframes myanimation {
+    0%   {color: gray; width: 1rem;height:1rem;}
+    50%  {color: white;width: 2rem;height:2rem;}
+    100%   {color: gray; width: 1rem;height:1rem;}
+}
+
+.underlined {
+    display: inline;
+    text-align: center;
+}
+.underline-svg{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.quiz-description p {
+    margin-top: 1rem;
+    margin-bottom: auto;
+    text-align: left;
+}
